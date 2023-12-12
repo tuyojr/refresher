@@ -29,20 +29,11 @@ scissors = '''
 '''
 
 # printing player choices
-if user_choice == 0:
-    print(rock)
-elif user_choice == 1:
-    print(paper)
-else:
-    print(scissors)
+game_images = [rock, paper, scissors]
+print(game_images[user_choice])
 computer_choice = random.randint(0, 2)
 print(f"Computer chose: {computer_choice}")
-if computer_choice == 0:
-    print(rock)
-elif computer_choice == 1:
-    print(paper)
-else:
-    print(scissors)
+print(game_images[computer_choice])
 
 # game rules and logic
 if user_choice == 2 and computer_choice == 1:
