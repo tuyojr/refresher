@@ -15,9 +15,5 @@
 #     move()
 #     turn_left()
     
-# jump()
-# jump()
-# jump()
-# jump()
-# jump()
-# jump()
+# for hurdle in range(0, 6):
+#     jump()
