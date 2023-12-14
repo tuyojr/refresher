@@ -14,9 +14,6 @@
 #     turn_right()
 #     move()
 #     turn_left()
-    
-# # for hurdle in range(0, 6):
-# #    jump()
 
 # while at_goal() == False: # OR while not at_goal(): 
 #     jump()
