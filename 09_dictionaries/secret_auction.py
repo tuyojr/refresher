@@ -24,8 +24,8 @@ def highest_bidder(registered_bidders):
 bidding = True
 
 while bidding:
-    name = input("What is your name? ")
-    bid_amount = int(input("What's your bid? $"))
+    name = input("What is your name?: ")
+    bid_amount = int(input("What's your bid?: $"))
     other_bidders = input("Are there any other bidders? Type 'yes' or 'no'.\n")
 
     bidders[name] = bid_amount
